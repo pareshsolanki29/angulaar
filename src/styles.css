@@ -1,0 +1,18 @@
+.subHeading{
+    font-weight: 300;
+    color:white;
+}
+body{
+    background: #23252D !important;
+}
+.container{
+    color:#CACACC;
+}
+.smallImg{
+    width: 20%;
+    /* transform: rotate(90deg); */
+
+}
+i:hover{
+    color:white !important;
+}

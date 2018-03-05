@@ -1,0 +1,13 @@
+
+<div class="container">
+  <span class="text-center">
+    <h1>{{portfolio.firstName + ' ' + portfolio.middleName[0] + '.' + portfolio.lastName}}</h1>
+   <h2 class="subHeading">{{portfolio.subHeading}}</h2>
+   <img src="../assets/img/me.jpg" class="rounded-circle mx-auto d-block smallImg" alt="">
+  </span>
+  <div class="row justify-content-center">
+    <a [href]="social.link" class="p-2" target="blank" *ngFor="let social of portfolio.socialMedia">
+      <i [style.color]="social.color" [class]="social.icon"></i>
+    </a>
+  </div>
+</div>
